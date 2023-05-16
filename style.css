@@ -61,7 +61,10 @@ margin:22px;
     position: relative;
     display: grid;
     place-items: center;
-    background-color: #fdb6c4;
+    background-image: url(images/Untitled-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .mango{
     text-align: center;
@@ -85,6 +88,11 @@ margin:22px;
     display: flex;
     position: relative;
     cursor: pointer;
+    
+}
+.ims img{
+    border-radius: 3px;
+    box-shadow: 9px 9px 10px rgb(176, 235, 16), 12px 12px 14px rgb(187, 80, 48);
 }
 .ims:hover .text1{ 
    opacity: 1;
@@ -136,7 +144,10 @@ margin:22px;
 }
 
 .producrbg {
-    background-color: #475f4ee8;
+    background-image: url(images/Orange\ Splash-1.jpg);
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
 
 }
 
